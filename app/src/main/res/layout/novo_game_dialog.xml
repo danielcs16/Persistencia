@@ -24,26 +24,14 @@
         android:layout_height="wrap_content"
         android:text="Plataforma"
         android:textAppearance="?android:attr/textAppearanceSmall" />
-    <EditText
-        android:id="@+id/etPlataforma"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:inputType="textMultiLine|textCapSentences"
-        android:maxLines="4" />
 
     <Spinner
+        android:id="@+id/spPlataforma"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:maxLines="4">
-
-    </Spinner>
-
-
-
+        android:entries="@array/plataformas"
+        android:maxLines="4" />
 
 
 </LinearLayout>
